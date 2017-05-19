@@ -1,7 +1,8 @@
-# require "nokogiri"
-# require "sanitize"
-# require "open-uri"
-# require "sequel"
+require "nokogiri"
+require "sanitize"
+require "open-uri"
+require "sequel"
+require "pg"
 
 DB = Sequel.connect(ENV['DATABASE_URL'])
 

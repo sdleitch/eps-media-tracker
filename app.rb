@@ -2,8 +2,9 @@
 # require "sanitize"
 # require "open-uri"
 require "sequel"
+require "pg"
 
-DB = Sequel.connect(ENV['DATABASE_URL']) 
+DB = Sequel.connect(ENV['DATABASE_URL'])
 
 class MediaReleaseServer
   def call(env)
