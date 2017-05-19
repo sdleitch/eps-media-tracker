@@ -3,7 +3,7 @@ require "sanitize"
 require "open-uri"
 require "sequel"
 
-DB = Sequel.sqlite("database.sqlite3")
+DB = SequelSequel.connect(ENV['DATABASE_URL'])
 
 DB.create_table? :mediareleases do
   primary_key :id

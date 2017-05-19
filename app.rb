@@ -3,8 +3,7 @@
 # require "open-uri"
 require "sequel"
 
-DB = Sequel.sqlite("database.sqlite3")
-
+DB = Sequel.connect(ENV['DATABASE_URL']) 
 
 class MediaReleaseServer
   def call(env)
