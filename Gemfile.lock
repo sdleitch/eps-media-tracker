@@ -7,14 +7,18 @@ GEM
       mini_portile2 (~> 2.1.0)
     nokogumbo (1.4.11)
       nokogiri
+    rack (1.6.4)
     sanitize (4.4.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.4.4)
       nokogumbo (~> 1.4.1)
+    sequel (4.46.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   nokogiri!
+  rack (= 1.6.4)!
   sanitize!
+  sequel!

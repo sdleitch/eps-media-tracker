@@ -3,6 +3,5 @@ source "https://rubygems.org" do
   gem "nokogiri"
   gem "sanitize"
   gem "sequel"
-  gem "open-uri"
-  gem "rack"
+  gem "rack", "1.6.4"
 end
