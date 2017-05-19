@@ -4,4 +4,5 @@ source "https://rubygems.org" do
   gem "sanitize"
   gem "sequel"
   gem "rack", "1.6.4"
+  gem "pg"
 end
